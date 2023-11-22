@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">KURS BAŞVURU FORMU</h1>
+
+<fieldset>
+<legend align="center"><b>Öğrenci Bilgileri</b></legend>
+    <span>Adı:</span><input type="text" placeholder="adınızı giriniz"> <span>Soyadı:</span><input type="text" placeholder="soyadınızı giriniz"> <span>Doğum Tarihi:</span><input type="date">
+<br>
+<br>
+    <span>Doğum Yeri:</span>
+        <select name="iller" id="">
+            <option value="">il seçiniz</option>
+            <option value="">ankara</option>
+            <option value="">istanbul</option>
+            <option value="">samsun</option>
+            <option value="">izmir</option>
+        </select>
+    <span>Email</span><input type="text" placeholder="Email adresinizi giriniz"> <span>sifre</span><input type="password" placeholder="şifre giriniz"> <span>Telefon numarası</span><input type="tel" placeholder="telefon numarası giriniz">
+    <span>Öğrenim durumu</span>
+        <select name="okullar" id="">
+            <option value="">okul seçiniz</option>
+            <option value="">İlkokul</option>
+            <option value="">Lise</option>
+            <option value="">Üniversite</option>
+        </select>
+<br>
+<br>
+    <span>Yabancı Diller:</span> 
+    <input type="checkbox">İngilizce <input type="checkbox">Almanca <input type="checkbox">Fransızca<input type="checkbox">Çince<input type="checkbox">Rusça<input type="checkbox">İtalyanca
+<br>
+<br>
+    <span>Cinsiyet:</span>
+    <label>
+        <input name="Cinsiyet" type="radio">Erkek
+    </label>
+    <label>
+        <input name="Cinsiyet" type="radio">Kadın
+    </label>
+    <label>
+        <input name="Cinsiyet" type="radio">Belirtmek istemiyor
+    </label>
+</fieldset>
+<br>
+<fieldset>
+<legend align="center"><b>Kurs Bilgileri</b></legend>
+    <h3>Öğrenilecek Dil Seçiniz :</h3>
+    <input name="dil" type="radio"> İngilizce
+    <input name="dil" type="radio"> Fransızca
+    <input name="dil" type="radio"> Almanca
+    <input name="dil" type="radio">İtalyanca
+<br>
+<br>
+    <b><span>Ögrenilecek Dil Seviyesi:</span></b><input type="checkbox">a1 <input type="checkbox">a2<input type="checkbox">b1<input type="checkbox">b2<input type="checkbox">c1<input type="checkbox">c2
+<br>
+    <p>Diğer Bilgiler</p>
+    <textarea name="" id="" cols="50" rows="5" placeholder="İletmek istediğiniz mesajınızı yazabilirsiniz zorunlu değildir."></textarea>
+</fieldset>
+
+
+<br>
+<br>
+    <form action="index.html" method="get">
+        <button type="submit" value="Kaydet">Kaydet</button>
+        <button type="reset" value="Reset">Temizle</button>
+    </form>
+
+
+<br>
+<br>
+
+<table border="1" align="center">
+    <thead>
+        <tr>
+            <th>ADI</th>
+            <th>SOYADI</th>
+            <th>DOĞUM TARİHİ</th>
+            <th>DOĞUM YERİ</th>
+            <th>EMAİL</th>
+            <th>TELEFON</th>
+            <th>EĞİTİM DURUMU</th>
+            <th>YABANCI DİL BİLGİSİ</th>
+            <th>CİNSİYET</th>
+            <th>KURS BİLGİLERİ</th>
+            <th>KURS SEVİYESİ</th>
+        </tr>
+    </thead>
+    <TBody>
+        <tr>
+            <td>Çağrı</td>
+            <td>KAYA</td>
+            <td>26.07.1995</td>
+            <td>Samsun</td>
+            <td>m.cagrikaya55@gmail.com</td>
+            <td>0456391863</td>
+            <td>Lisans</td>
+            <td>İngilizce</td>
+            <td>Erkek</td>
+            <td>Flemenkçe</td>
+            <td>b1</td>
+        </tr>
+        <tr>
+            <td>Ada</td>
+            <td>KAYA</td>
+            <td>25.04.1996</td>
+            <td>Denizli</td>
+            <td>adakaya@gmail.com</td>
+            <td>0456391864</td>
+            <td>Lisans</td>
+            <td>İngilizce</td>
+            <td>Kadın</td>
+            <td>Flemenkçe</td>
+            <td>a1</td>
+        </tr>
+        <tr>
+            <td>Musa</td>
+            <td>OKUR</td>
+            <td>24.06.1996</td>
+            <td>İstanbul</td>
+            <td>musaokur@gmail.com</td>
+            <td>0456391865</td>
+            <td>Lisans</td>
+            <td>İngilizce</td>
+            <td>Erkek</td>
+            <td>Flemenkçe</td>
+            <td>b1</td>
+        </tr>
+    </TBody>
+
+ </table>
+    
+</body>
+</html>
